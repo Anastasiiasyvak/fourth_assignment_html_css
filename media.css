@@ -165,6 +165,104 @@ form.example input[type=text] {
     line-height: 40px; 
 }
 
+.part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text_part3{
+    color: #000D40;
+    text-align: center;
+    font-family: Abel;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px; 
+}
+
+
+
+ body {
+	 margin: 0;
+	 padding: 0;
+	 background: #fff;
+	 display: flex;
+	 min-height: 100vh;
+     color:#000D40;
+    font-family: Abel;
+    font-size: 24px;
+}
+ .FAQ_questions {
+	 margin: 0 auto;
+	 padding: 4rem;
+	 width: 48rem;
+}
+ .accordion .accordion-item {
+	 border-bottom: 1px solid #e5e5e5;
+}
+ .accordion .accordion-item button[aria-expanded='true'] {
+	 border-bottom: 1px solid #129AFE;
+}
+ .accordion button {
+	 position: relative;
+	 display: block;
+	 text-align: left;
+	 width: 100%;
+	 padding: 1em 0;
+     color:#000D40;
+    font-family: Abel;
+    font-size: 24px;
+	 font-weight: 400;
+	 border: none;
+	 background: none;
+	 outline: none;
+}
+ .accordion button:hover, .accordion button:focus {
+	 cursor: pointer;
+	 color: #129AFE;
+}
+ .accordion button:hover::after, .accordion button:focus::after {
+	 cursor: pointer;
+	 color: #129AFE;
+	 border: 1px solid #03b5d2;
+}
+ .accordion button .accordion-title {
+	 padding: 1em 1.5em 1em 0;
+}
+ .accordion button .icon {
+	 display: inline-block;
+	 position: absolute;
+	 top: 18px;
+	 right: 0;
+	 width: 22px;
+	 height: 22px;
+	 border: 1px solid;
+	 border-radius: 22px;
+}
+ .accordion button .icon::before {
+	 display: block;
+	 position: absolute;
+	 content: '';
+	 top: 9px;
+	 left: 5px;
+	 width: 10px;
+	 height: 2px;
+	 background: currentColor;
+}
+ .accordion button .icon::after {
+	 display: block;
+	 position: absolute;
+	 content: '';
+	 top: 5px;
+	 left: 9px;
+	 width: 2px;
+	 height: 10px;
+	 background: currentColor;
+}
+
 
 .part4 {
     display: flex;
@@ -177,7 +275,10 @@ form.example input[type=text] {
     font-style: normal;
     font-weight: 400;
     line-height: 64px;
+    margin-bottom: 100px;
 }
+
+
 
 .image-container {
     display: flex;
