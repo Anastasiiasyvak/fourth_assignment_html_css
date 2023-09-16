@@ -165,24 +165,45 @@ form.example input[type=text] {
     line-height: 40px; 
 }
 
-.Footer_CTA{
-    width: 1440px;
-    height: 440px;
+
+.part4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000D40;
+    font-family: Abel;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
 }
 
-.BG_Elip{
-    width: 3503px;
-    height: 3503px;
+.image-container {
     display: flex;
-    background: #000D40;
-    width: 100%; 
-    color: white;
-    /* text-align: flex-end; */
-    padding: 20px 0;
-    
-    border-radius: 3503px;
-    background: #000D40;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
 }
+
+.Button_part4{
+    border-radius: 100px;
+    background: #129AFE;
+    color:  #FFF;
+    text-align: center;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    display: inline-flex;
+    padding: 11.5px 28px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+
+
 
 
 
