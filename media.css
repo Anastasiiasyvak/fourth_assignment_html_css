@@ -1,6 +1,8 @@
 .Web_search {
     width: 100%;
     min-height: 100vh;
+    /* width: 1440px;
+    height: 3567px; */
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -70,6 +72,94 @@
     background:#FFF;
     cursor: pointer; 
 }
+
+
+.part1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.responsible_text{
+    font-family: Abel;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    white-space: nowrap;
+}
+.link{
+    color: #000D40;
+    text-align: center;
+    font-family: Abel;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+* {
+    box-sizing: border-box;
+  }
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #129AFE;
+    float: left;
+    width: 80%;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    background: rgba(18, 154, 254, 1);
+    border-left: none;
+    cursor: pointer;
+  }
+
+
+
+.parth img:first-child {
+    margin-right: 1000px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.Footer_CTA{
+    width: 1440px;
+    height: 440px;
+}
+
+.BG_Elip{
+    width: 3503px;
+    height: 3503px;
+    display: flex;
+    background: #000D40;
+    width: 100%; 
+    color: white;
+    /* text-align: flex-end; */
+    padding: 20px 0;
+    
+    border-radius: 3503px;
+    background: #000D40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Footer{
     display: flex;
@@ -156,17 +246,32 @@
     font-weight: 400;
     line-height: 32px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     flex-direction: row;
+    gap: 400px;
 }
 
-.Features.Pages.Keep_up_to_date{
+
+
+.Features.Pages{
     color: #FFF;
     font-family: Aleo;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ 
+
+.Keep_up_to_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .Form{
@@ -185,20 +290,25 @@
 }
 
 .Button2{
-    border-radius: 100px;
+    border-radius: 60px;
     background:  #129AFE;
     display: flex;
     padding: 11.5px 28px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    display: inline-flex;
-    align-items: flex-start;
+}
+
+.form_button{
+    display: flex;
+    justify-content: space-between;
 }
 
 .arrow{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 16px;
-    color: rgba(255, 255, 255, 1)
+     gap: 16px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer; 
 }
+
